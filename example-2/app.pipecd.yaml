@@ -1,9 +1,7 @@
 apiVersion: pipecd.dev/v1beta1
 kind: Application
 spec:
-  name: multi-sources-template-none
-  labels:
-    env: example
+  name: multi-sources-example-2
   plugins:
     kubernetes_multicluster:
       quickSync:
